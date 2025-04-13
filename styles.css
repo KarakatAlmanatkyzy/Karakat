@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117; /* основной фон */
+  color: #ffffff; /* основной цвет текста */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #0d1117;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #111827 0%, #1e293b 100%);
+}
+
+h1, h2, h5 {
+  font-weight: 700;
+}
+
+footer p {
+  margin-bottom: 0.3rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+}
